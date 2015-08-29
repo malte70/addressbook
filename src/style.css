@@ -1,0 +1,81 @@
+a:link, a:visited {
+	color: #0074D9;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+body {
+	font: 18px "Source Sans Pro", sans-serif;
+	background: #fff;
+	color: #111;
+}
+
+header {
+	width: 40em;
+	max-width: 100%;
+	margin: 5em auto 2em;
+	text-align: center;
+}
+
+header h1 {
+	font: 26pt 'Inconsolata-g', 'Inconsolata', monospace;
+}
+
+main {
+	width: 40em;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+main table {
+	width: 100%;
+}
+main table td {
+	width: 20%;
+	vertical-align: top;
+	padding: 2px 5px;
+}
+main section#license {
+	font: 15px 'Inconsolata-g', Inconsolata, monospace;
+	text-align: justify;
+}
+button {
+	padding: 4px;
+	font-size: 1em;
+	color: #0074D9;
+	border: 1px solid #0074D9;
+	background: #fff;
+	cursor: pointer;
+}
+
+button[type=submit] {
+	color: #fff;
+	background: #0074D9;
+}
+button.red {
+	color: #FF401C;
+	border-color: #FF401C;
+	background: #fff;
+}
+
+table.view-table {
+	width: 40em;
+}
+table.view-table tr th {
+	width: 20%;
+}
+table.view-table tr td {
+	width: 80%;
+}
+
+footer {
+	width: 40em;
+	max-width: 100%;
+	margin: 3em auto 1em;
+	text-align: center;
+}
+/*footer p {
+	font-size: 0.8em;
+}*/
